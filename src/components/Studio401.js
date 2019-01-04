@@ -72,7 +72,7 @@ class Studio401 extends React.Component {
                </p>
                <p>
                 We used Squarespace for web design and deployment due to its ease of use, responsive mobile design, and simple client side editing capabilities.
-                The site currently has the highest SEO when searching for Salon in Winter Park, CO despite our an area competiting salon being named "Winter Park Salon."
+                The site currently has the highest SEO when searching for "Salon in Winter Park, CO" despite our areas competiting salon being named "Winter Park Salon."
               </p>
             </Modal.Body>
             <Modal.Footer>
