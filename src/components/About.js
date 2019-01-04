@@ -9,8 +9,8 @@ const About = (props) => {
                     <img className="personalPic" alt="Andrew Pedersen Pic" src={require('./personalPic.jpg')}/>
                </div>
                <div className="textDiv">
-                    <p>Hello friend !! My name is Andrew. I am a Software Engineer in both front-end and back-end development. From a young age I have been enthralled in technology, I began learning front end development in the late 90's and kept it up as a hobby over the years along with graphic design. In early 2018, I decided to make a pivot in my career and focus soley on Software Engineering. I am currently enrolled in Galvanize's Full Stack Immersive Web Development Program which is over 800 hours of front and back end application development.</p>
-                    <p>You've come across my late 1990s themed web page, built in React with responsive mobile design to showcase some of my past and current projects. Whats with the cool looking umbrella you ask ? Check back in a few weeks and its mystery shall be revealed. Also feel free to contact me through any of the resources below!</p>
+                    <p>Hello friend !! My name is Andrew. I am a Software Engineer in both front-end and back-end development. From a young age I have been enthralled in technology, I began learning front end development in the late 90's and kept it up as a hobby over the years along with graphic design. In early 2018, I decided to make a pivot in my career and focus solely on Software Engineering. I am currently enrolled in Galvanize's Full Stack Immersive Web Development Program which is over 800 hours of front and back end application development.</p>
+                    <p>You've come across my late 1990s themed web page, built in React with responsive mobile design to showcase some of my past and current projects. What's with the cool looking umbrella you ask? Check back in a few weeks and its mystery shall be revealed. Also feel free to contact me through any of the resources below!</p>
                 </div>
             </div>
             <ul className="contactList">
