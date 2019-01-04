@@ -66,20 +66,21 @@ class GalvanizeUnity extends React.Component {
   
               <h4>Galvanize Unity</h4>
               <p>
-                Galvanize Unity was our end of Block Three Project attendending Galvaize's Web Development Immersive Program.
+                Galvanize Unity was our end of Block Three Project attending Galvanize's Web Development Immersive Program.
                 After spending the entire block learning React and back end development we were paired with three other cohorts and 
                 given 4 days to create a full CRUD Application of our choosing using a completely foreign library (Vue/Angular/Swift)
                 using the Agile software development model.
               </p>
                <p>
-                Choosing the Vue library our group began development of the application titled PetSwipe. The application was to incorperate modern
+                Choosing the Vue library our group began development of the application titled PetSwipe. The application was to include modern
                 web development practices to better facilite the UX for those wishing to adopt a pet. While taking on Vue in 4 days and creating a working
-                application our group did run into difficulties, espeically incorperting a swipe function in the application as the front end of the framework
+                application our group did run into difficulties, especially creating a swipe function in the application as the front end of the framework
                 is written in the "light" version of Vue.
               </p>
               <p>
-                Since our project presentation the application has been re-engineered on the front end utilizing React-Native and is much more functional
-                and responsive. In the future we plan to incorperte user authorization and the Twilio API for SMS/Messaging communication features.
+                Since our project presentation the application is being re-engineered on the front end utilizing React-Native which is more functional
+                and responsive. In the future we plan to incorperte user authorization and the Twilio API for SMS/Messaging communication features and 
+                redesign the back end for faster data transfer.
               </p>
             </Modal.Body>
             <Modal.Footer>

@@ -57,16 +57,16 @@ class SnowG extends React.Component {
   
               <h4>The Original SnowG</h4>
               <p>
-                In 2004, I sold everything I owned and moved to Colorado. I joined Winter Park Resorts Life Operations team and chose to utilize their employee
-                housing offerings as my place of residence. I was randomly placed with 3 other room mates. One of them was this crazy kid my age name Alika from Colorado
-                Springs. In December of 2018 I joined the team for his brand SnowG Streetwear as their Web Development || Digital Marketing Specialist.
+                In 2004, I sold everything I owned and moved to Colorado. I joined Winter Park Resorts Lift Operations team and chose to utilize their employee
+                housing offerings as my place of residence. I was randomly placed with 3 other roommates. One of them was this crazy kid my age name Alika from Colorado
+                Springs. After over a decade of adventures in December of 2018 I joined the team for his brand SnowG Streetwear as their web development and digital marketing specialist.
                </p>
                <p>
-                 The Application is a mobile focused synopsis of SnowG as a brand utilizing HTML/CSS/Firebase to better provide traffic to our retail site
+                 The application is a mobile focused synopsis of SnowG as a brand utilizing HTML/CSS/Firebase to better provide traffic to our retail site
                  and social media platforms.
                </p>
                <p>
-                Moving into 2019 we plan to expand the brands product offerings and social media platform presence. As for our website we are currently moving from 
+                Moving into 2019 we plan to expand the brand's product offerings and social media platform presence. As for our website we are currently moving from 
                 HTML/CSS to a React/ReactNative version as well as incorperate our own store and payment systems to better serve our growing customer base.  
               </p>
             </Modal.Body>

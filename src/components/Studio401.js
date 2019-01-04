@@ -67,7 +67,7 @@ class Studio401 extends React.Component {
                 In 2016, my then girlfriend and I decided that due to her success as a stylist with a large customer base, we wanted 
                 to go into business for ourselves and create the best modern salon in the Grand County area. We handled the build out,
                 intereior decorating, infrastructre, customer database integration, scheduling services, identity design, web design, Google Analytics,
-                Google Adwords/AdWordsExpress, SEO, brand and marketing management all ourselves. While it was a crazy and daunting task to complete while in a window of
+                Google Adwords/AdWordsExpress, SEO, brand and marketing management all ourselves. While it was a crazy and daunting task to complete in a window of
                 six weeks both working full time jobs and raising children, we are very proud of the success, reception, and praise Studio 401 has recieved. 
                </p>
                <p>
