@@ -9,6 +9,12 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12pt;
 }
+ul {
+  padding: 0em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  list-style-type: none;
+}
 .titleText {
   display:flex;
   justify-content: center;
@@ -53,10 +59,25 @@
   height: 30%;
   flex-direction: column;
 }
+.linkContent ul {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} 
+.linkContent ul li {
+  display: inline;
+}
 .linkContent img {
   border-style: solid;
   border-width: 3px;
   border-color: brown;
+}
+ul.linkList {
+  list-style-type: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 .resumeContent {
   display: flex;
@@ -126,9 +147,9 @@ a:visited {
   color: brown;
 }
 .contactList li {
-  display: inline;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 50px;
 }
 .resume {
    width: 550px;
@@ -140,11 +161,8 @@ a:visited {
 .contactList {
   list-style-type: none;
 }
-.linkList {
-  list-style-type: none;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+.fab, .fas {
+  margin-right: 10px;
 }
 .umbrella {
   width: 45px;
@@ -177,15 +195,6 @@ a:visited {
   .resume {
     display: none;
   }
-  .linkContent ul {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  } 
-  .linkContent ul li {
-    display: inline;
-  }
 }
 @media only screen and (min-width: 1024px) {
   .navBarDeco1 {
@@ -197,9 +206,13 @@ a:visited {
  .navBarDeco3 {
    width: 100vw;
  }
- ul.linkList li {
-   display: inline-block;
+.linkContent {
+   display: inline;
    margin-left: 25px;
    margin-right: 25px;
+ }
+ .contactList li {
+   display: inline;
+   padding-bottom: 25px;
  }
 }

@@ -64,13 +64,15 @@ class Studio401 extends React.Component {
                 Studio 401 Salon is a Winter Park, CO's premier modern salon specializing in hair, waxing, and tanning services.
                </p>
                <p>
-                In 2016, my then girlfriend and I decided that due to her success as a stylist with a large customer base that we wanted 
+                In 2016, my then girlfriend and I decided that due to her success as a stylist with a large customer base, we wanted 
                 to go into business for ourselves and create the best modern salon in the Grand County area. We handled the build out,
                 intereior decorating, infrastructre, customer database integration, scheduling services, identity design, web design, Google Analytics,
-                Google Adwords/AdWordsExpress, SEO, brand and marketing management all our selves.
+                Google Adwords/AdWordsExpress, SEO, brand and marketing management all ourselves. While it was a crazy and daunting task to complete while in a window of
+                six weeks both working full time jobs and raising children, we are very proud of the success, reception, and praise Studio 401 has recieved. 
                </p>
                <p>
-                We used Squarespace for web design and deployment due to its ease of use, responsive mobile design, and 
+                We used Squarespace for web design and deployment due to its ease of use, responsive mobile design, and simple client side editing capabilities.
+                The site currently has the highest SEO when searching for Salon in Winter Park, CO despite our an area competiting salon being named "Winter Park Salon."
               </p>
             </Modal.Body>
             <Modal.Footer>
