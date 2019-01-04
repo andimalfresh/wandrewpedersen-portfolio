@@ -8,6 +8,7 @@
   align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12pt;
+  /* font-weight: bold; */
 }
 ul {
   padding: 0em;
@@ -48,8 +49,18 @@ ul {
   border-width: 3px;
   border-color: orangered;
 }
+img.personalPic {
+  display:flex;
+  justify-content: left;
+  align-items: top;
+  height: 250px;
+  width: 350px; 
+  margin-bottom: 20px;
+}
 .aboutText {
   padding: 50px;
+  justify-content: right;
+  flex-direction: row;
 }
 .linkContent {
   display: flex;
@@ -147,9 +158,9 @@ a:visited {
   color: brown;
 }
 .contactList li {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
 }
 .resume {
    width: 550px;
@@ -173,6 +184,7 @@ a:visited {
   -webkit-animation-duration: 4s;
   animation-name: umb-animation;
   animation-duration: 10s;
+  transform: rotate(-20deg);
 }
 
 @keyframes umb-animation {
@@ -195,8 +207,22 @@ a:visited {
   .resume {
     display: none;
   }
+  img.personalPic {
+    display:flex;
+    justify-content: left;
+    align-items: top;
+    height: 200px;
+    width: 275px; 
+  }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1515px) {
+  img.personalPic {
+    display:flex;
+    justify-content: center;
+    align-items: top;
+    height: 400px;
+    width: 550px; 
+  }
   .navBarDeco1 {
     width: 100vw;
  }
@@ -215,4 +241,22 @@ a:visited {
    display: inline;
    padding-bottom: 25px;
  }
+ .aboutText {
+   display: flex;
+   flex-direction: row;
+ }
+ .picDiv {
+   margin: 10px;
+ }
+ .textDiv {
+  margin: 10px;
+}
+ ul.linkList li {
+   display: inline;
+ }
+}
+@media only screen and (max-width: 369px) {
+  .titleJob {
+    display:none;
+  }
 }
