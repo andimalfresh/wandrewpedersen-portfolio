@@ -1,32 +1,205 @@
+/* CSS GOES HERE SON !!  */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:#E8E1C0;
+  color: black;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+}
+.titleText {
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  align-items: center;
+  color: brown;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bolder;
+}
+.titleBar {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.titleName {
+  padding-right: 10px;
+}
+.aboutContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 30%;
+  background-color: white;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 3px;
+  border-color: orangered;
+}
+.aboutText {
+  padding: 50px;
+}
+.linkContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 30%;
+  flex-direction: column;
+}
+.linkContent img {
+  border-style: solid;
+  border-width: 3px;
+  border-color: brown;
+}
+.resumeContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 30%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: yellow;
+  width: 300px;
+  height: 400px;
+}
+.footerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.navDeco {
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.navBarDeco1 {
+   height:10px;
+   width: 100%;
+   background-color: orangered;
+}
+.navBarDeco2 {
+  height:10px;
+  width: 100%;
+  background-color: yellow;
+}
+.navBarDeco3 {
+  height:10px;
+  width: 100%;
+  background-color: brown;
+}
+.navBarDeco1m {
+  height:10px;
+  width: 100%;
+  background-color: orangered;
+}
+.navBarDeco2m {
+ height:10px;
+ width: 100%;
+ background-color: yellow;
+}
+.navBarDeco3m {
+ height:10px;
+ width: 100%;
+ background-color: brown;
+}
+.brand {
+  display:flex;
+  flex-direction: column;
+}
+a:link {
+  color: brown;
+}
+a:visited {
+  color: brown;
+}
+.contactList li {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.resume {
+   width: 550px;
+   height: 800px;
+   border-style: solid;
+   border-width: 3px;
+   border-color:brown;
+}
+.contactList {
+  list-style-type: none;
+}
+.linkList {
+  list-style-type: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.umbrella {
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+  -webkit-animation-name: umb-animation;
+  -webkit-animation-duration: 4s;
+  animation-name: umb-animation;
+  animation-duration: 10s;
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes umb-animation {
+  90% {
+    transform: rotate(-360deg);
+  }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 768px) {
+  .titleBar {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+  .titleTitle {
+    align-items: center;
   }
+  .aboutContent {
+    width: 300px;
+  }
+  .resume {
+    display: none;
+  }
+  .linkContent ul {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  } 
+  .linkContent ul li {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .navBarDeco1 {
+    width: 100vw;
+ }
+ .navBarDeco2 {
+   width: 100vw;
+ }
+ .navBarDeco3 {
+   width: 100vw;
+ }
+ ul.linkList li {
+   display: inline-block;
+   margin-left: 25px;
+   margin-right: 25px;
+ }
 }
