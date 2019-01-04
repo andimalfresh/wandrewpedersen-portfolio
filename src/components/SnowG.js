@@ -67,7 +67,7 @@ class SnowG extends React.Component {
                </p>
                <p>
                 Moving into 2019 we plan to expand the brand's product offerings and social media platform presence. As for our website we are currently moving from 
-                HTML/CSS to a React/ReactNative version as well as incorperate our own store and payment systems to better serve our growing customer base.  
+                HTML/CSS to a React/ReactNative version as well as incorporate our own store and payment systems to better serve our growing customer base.  
               </p>
             </Modal.Body>
             <Modal.Footer>

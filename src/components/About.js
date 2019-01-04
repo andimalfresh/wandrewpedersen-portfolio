@@ -21,7 +21,7 @@ const About = (props) => {
                     </li>
                 <li>
                     <a className="contactLink" rel="noopener noreferrer" target="_blank" href="https://www.github.com/andimalfresh/">
-                        <i className="fab fa-instagram"></i>
+                        <i className="fab fa-github"></i>
                         GitHub</a>
                 </li>
                 <li>

@@ -251,8 +251,8 @@ a:visited {
  .textDiv {
   margin: 10px;
 }
- ul.linkList li {
-   display: inline;
+ ul.contactList {
+   margin-bottom: 50px;
  }
 }
 @media only screen and (max-width: 369px) {

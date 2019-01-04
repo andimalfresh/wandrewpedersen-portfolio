@@ -79,7 +79,7 @@ class GalvanizeUnity extends React.Component {
               </p>
               <p>
                 Since our project presentation the application is being re-engineered on the front end utilizing React-Native which is more functional
-                and responsive. In the future we plan to incorperte user authorization and the Twilio API for SMS/Messaging communication features and 
+                and responsive. In the future we plan to incorporte user authorization and the Twilio API for SMS/Messaging communication features and 
                 redesign the back end for faster data transfer.
               </p>
             </Modal.Body>
